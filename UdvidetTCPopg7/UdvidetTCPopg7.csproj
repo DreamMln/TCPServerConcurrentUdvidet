@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="DiceLib29aug">
+      <HintPath>..\..\DiceLib29aug\DiceLib29aug\bin\Debug\net5.0\DiceLib29aug.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
